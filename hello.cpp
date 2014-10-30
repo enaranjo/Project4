@@ -12,6 +12,6 @@ int main(int argc, char*argv[])
   else
   {
     name.erase(0, 5);
-    cout << "Hello, ", name, endl;
+    cout << "Hello, "<< name<< endl;
   }
 }  
